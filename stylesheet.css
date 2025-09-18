@@ -1,0 +1,65 @@
+body{
+    background-color: white;
+    background-image: url("da1226b3905b45f2ea6f994077cd01de (1).jpg");
+    padding: 0;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-size: cover;/* makes it cover the whole screen*/
+    background-position: center;/*center the image*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.loginbox{
+    background-color: rgba(148, 250, 216, 0.743);
+    width: 80%;
+    height:auto;
+    max-width: 400px;
+    border-radius: 20px;
+    box-shadow:10px 20px 30px black;
+    display:flex;
+    padding-left: 5%;
+    border: 2px solid black;
+}
+input[type="text"],
+input[type="password"]{
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+    height: 25px;
+    border-radius: 10px;
+}
+input[type="submit"]{
+    display: block;
+    width: 100%;
+    height: 25px;
+    background-color: blueviolet;
+    font-weight: bold;
+    border-radius: 20px;
+    margin: 20px;
+}
+label{
+    color: rgb(239, 6, 216);
+    font-weight: bold;
+    margin-bottom: 10px;
+
+}
+p{
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.bottom{
+    margin-top: 30px;
+}
+a{
+    text-decoration: none;
+    color: blue;
+
+}
+em{
+    color:rgb(255, 196, 19)
+}
+h2{
+    text-align: center;
+}
