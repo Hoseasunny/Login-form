@@ -13,8 +13,8 @@ body{
 }
 .loginbox{
     background-color: rgba(148, 250, 216, 0.743);
-    width: 80%;
-    height:auto;
+    width: 90%;
+    height:50%;
     max-width: 400px;
     border-radius: 20px;
     box-shadow:10px 20px 30px black;
@@ -62,4 +62,5 @@ em{
 }
 h2{
     text-align: center;
+
 }
